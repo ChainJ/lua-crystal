@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lua-crystal.iml" filepath="$PROJECT_DIR$/.idea/modules/lua-crystal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lua-crystal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lua-crystal_main.iml" group="lua-crystal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lua-crystal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lua-crystal_test.iml" group="lua-crystal" />
+    </modules>
+  </component>
+</project>

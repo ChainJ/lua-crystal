@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            'org.apache.commons:commons-lang3:3.4',
+            'commons-collections:commons-collections:3.2.2',
+            'com.fasterxml.jackson.core:jackson-databind:2.8.1',
+            'com.fasterxml.jackson.datatype:jackson-datatype-joda:2.8.1',
+            'org.ow2.asm:asm-all:5.0.4',
+            'org.slf4j:slf4j-api:1.7.25',
+            'org.slf4j:slf4j-log4j12:1.7.25'
+    )
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile "junit:junit:4.12"
+}
+
+jar {
+    manifest {
+        attributes("Implementation-Title": "Gradle")
+    }
+}
+
+javadoc {
+    options.encoding = "UTF-8"
+}
