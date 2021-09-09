@@ -1,1 +1,5 @@
-I just upload the project in case that one day it may be reused
+# Lua Crystal
+
+A lua version implementation of standard Java ScriptEngine.
+
+Using lua-crystal helps you make a standard runtime of Lua in JVM, thus you can run lua code in Java.
